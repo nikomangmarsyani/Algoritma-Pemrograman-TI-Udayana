@@ -47,7 +47,7 @@ int main()
     printf("\n\t==============================================");
     printf("\n\tInputkan pilihan menu:");
     while (scanf("%d", &menu)==0 || menu < 1 || menu > 8){
-		printf("\t----------------------------------------------");
+	printf("\t----------------------------------------------");
         printf("\n\tKarakter yang Anda inputkan salah!");
         printf("\n\tMohon inputkan pilihan yang benar.\n");
         printf("\t----------------------------------------------");
@@ -95,13 +95,13 @@ int segitiga_sama_sisi() {
 
 	printf("\n\tMasukkan sisi dari segitiga : ");
 	while (scanf("%f", &sisi)==0 || sisi < 1){
-		printf("\t----------------------------------------------");
+	printf("\t----------------------------------------------");
         printf("\n\tKarakter yang Anda inputkan salah!");
         printf("\n\tMohon inputkan angka yang benar.\n");
         printf("\t----------------------------------------------");
-		printf("\n\tMasukkan sisi dari segitiga : ");
-		int c;
-		while((c=getchar())!='\n' && c!=EOF);
+	printf("\n\tMasukkan sisi dari segitiga : ");
+	int c;
+	while((c=getchar())!='\n' && c!=EOF);
 
 	}
   	printf("\n\tMasukkan tinggi dari segitiga : ");
